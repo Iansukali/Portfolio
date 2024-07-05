@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/677917bbdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/logo.png" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>UI/UX Desginer</p>
+			<h1>Hi, I'm <span>Ishmael</span><br>Allan From Malawi</h1>
+		</div>
+	</div>
+	
+</div>
+
+<!------------- About ----------->
+
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				 <img src="images/user.png">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>I am Ishmael Allan from Malawi, i was born in the cipatal city of Malawi, Llongwe. Both my parents are from a district called Mangochi, i did my secondary school at Mitundu Community Day Secondary School then i proceded to tertary education in Sudan at International University of Africa.</p>
+
+				<div class="tab-title">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+						<li><span>Web Development</span><br>Web app Development</li>
+						<li><span>App Development</span><br>Building Android/ios apps</li>
+					</ul>
+				</div> 
+
+				<div class="tab-contents" id="exprience">
+					<ul>
+						<li><span>2023 - current</span><br>Internship at Key-Zee Computer Solution LL</li>
+						<li><span>2020 - 2021</span><br>Web app Developer at Tipex Limited</li>
+						<li><span>2019 - 2020</span><br>UI/UX Design Training at Step By Step</li>
+					</ul>
+				</div> 
+
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>2023</span><br>Certificate in Data Analysis at Machilu Professional Consultancy</li>
+						<li><span>2022</span><br>Bacholar's Degree in Computer Science at International University of Africa</li>
+						<li><span>2013</span><br>MSCE at Mitundu Community Day Secondary School</li>
+					</ul>
+				</div> 
+
+
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!-------------- Services----------->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web Design</h2>
+				<p>I am professional in web designing with multiple recommendation of recognased companies and organisations</p>
+				<a href="#">Learn more</a>
+			</div>
+
+			<div>
+				<i class="fa-solid fa-crop-simple"></i>
+				<h2>UI/UX Design</h2>
+				<p>I am professional in UI/UX designing with multiple recommendation of recognased companies and organisations</p>
+				<a href="#">Learn more</a>
+			</div>
+
+			<div>
+				<i class="fa-brands fa-app-store"></i>
+				<h2>App Design</h2>
+				<p>I am professional in app designing with multiple recommendation of recognased companies and organisations</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!------------- Portfolio ---------->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>Social Media App</h3>
+					<p>The app connects you to the talented people around the world. Download it from play store</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Music App</h3>
+					<p>The app that you can listern, watch and download Music. Download it from play store</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>Online Shopping App</h3>
+					<p>The app that allows you to shop different things. Download it from play store</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+</div>
+
+<!-------------- Contact ------------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-sharp fa-solid fa-paper-plane"></i> iandicksukali@gmail.com</p>
+				<p><i class="fa-solid fa-square-phone"></i> 0987101343</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/iandick.sukali?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://x.com/Ian_Sukali?t=pHiWbd78S-A0d0bzURVlog&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/mrsukali?igsh=MW5yZ2I5MWhtYXJ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/ishmael-allan-7021881b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ Ian Sukali. Made with <i class="fa-solid fa-heart"></i> by I-Tech Computer Solution LL</p>
+	</div>
+</div>
+
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for (tablink of tablinks){
+			tablink.classList.remove("active-link");
+ 		}
+ 		for (tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+ 		}
+ 		event.currentTarget.classList.add("active-link");
+ 		document.getElementById(tabname).classList.add("active-tab");
+	}
+	
+</script>
+
+<script>
+	
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKXiDt1KY8IwQI6XDa1YF0e8muMLtwqNbs4CLnfe1jBXB0AVUZLB_J7SklFz3ewI-_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const links = document.querySelectorAll("nav ul li a");
+            links.forEach(link => {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 60,
+                        behavior: "smooth"
+                    });
+                });
+            });
+        });
+</script>
+
+</body>
+</html>
